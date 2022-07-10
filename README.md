@@ -10,7 +10,7 @@ This module handles the creation of a GCE instance running [Jenkins](https://jen
 
 ## Usage
 
-Please see the [examples](./examples/) folder.
+Please see the [sample usage](./sample_usage/) folder.
 
 <!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 ## Inputs
@@ -102,7 +102,7 @@ Be sure you have the correct Terraform version (0.10.x), you can choose the bina
 The project has the following folders and files:
 
 - `/`: root folder
-- `/examples`: examples for using this module
+- `/sample_usage`: examples for using this module
 - `/helpers`: scripts used in the build process
 - `/templates`: templates used in the provisioning process
 - `/test`: folders with files for testing the module (see Testing section on this file)
