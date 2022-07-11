@@ -7,6 +7,7 @@ pipeline {
                 echo 'Deploying Changes to Web Server...'
                 ls
                 cp -a web-app/* /var/www/html/
+                sudo service nginx restart
             }
         }
     }
