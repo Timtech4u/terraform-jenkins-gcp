@@ -76,7 +76,6 @@ Please see the [sample usage](./sample_usage/) folder.
 ### Terraform plugins
 - [Terraform](https://www.terraform.io/downloads.html) 0.10.x
 - [terraform-provider-google](https://github.com/terraform-providers/terraform-provider-google) plugin v1.8.0
-- ruby-2.5.x
 
 ### Configure a Service Account
 In order to execute this module you must have a Service Account with the following project roles:
