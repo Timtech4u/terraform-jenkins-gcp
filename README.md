@@ -109,3 +109,20 @@ The project has the following folders and files:
 - `/variables.tf`: all the variables for the module
 - `/output.tf`: the outputs of the module
 - `/README.md`: this file
+
+## Additional Information
+
+GitHub Repo - https://github.com/Timtech4u/terraform-jenkins-gcp
+Slide - https://docs.google.com/presentation/d/1iIQ2B_Am9rdQSjDSUmN3VVGKGrLuHN1iM7hyAA3f53Q/edit?usp=sharing
+
+The repository contains the Terraform modules for setting up Jenkins & Nginx Web Server, Jenkinsfile for automatically deploying the Web App changes to the server. 
+
+I also made a short video that shows how all of these works and demos setting up Jenkins pipeline to deploy the Web App. 
+Video link - https://www.loom.com/share/63bd5d54564e40608769e2298b36baff
+
+You can access Jenkins using the following:
+URL: http://34.92.3.123/
+username: user
+password: H7LgycpFsvz7
+
+You can access the Web App here - http://34.92.3.123:88
