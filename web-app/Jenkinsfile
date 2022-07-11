@@ -1,0 +1,13 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Deploy') {
+            steps {
+                echo 'Deploying Changes to Web Server...'
+                ls
+                cp -a web-app/* /var/www/html/
+            }
+        }
+    }
+}
