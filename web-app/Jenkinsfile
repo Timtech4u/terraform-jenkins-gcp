@@ -5,7 +5,7 @@ pipeline {
         stage('Deploy') {
             steps {
                 echo 'Deploying Changes to Web Server...'
-                ls
+                sh 'ls' // Verify files in dir
                 sh 'cp -a web-app/* /var/www/html/'
                 sh 'sudo service nginx restart'
             }
