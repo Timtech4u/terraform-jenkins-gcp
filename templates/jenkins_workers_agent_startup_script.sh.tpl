@@ -1,6 +1,6 @@
 #!/bin/bash
 
-apt-get install -y nginx # Setup Web server
+apt-get install -y nginx 
 apt-get install -y -qq wget
 cd /tmp
 wget https://repo.jenkins-ci.org/releases/org/jenkins-ci/plugins/swarm-client/3.9/swarm-client-3.9.jar
